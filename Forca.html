@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Jogo da Forca Gustavo Vazzoler Spelta </title>
+	<meta charset="utf-8">	
+	<script type="text/javascript" src="script.js"> </script>
+	<style type="text/css">
+
+			.config{
+				font-family:News Roman;
+				font-size:36px;
+				color:purple;
+			}
+				.escolhaLetra{
+					top:430px;
+						left:-70px;
+			}
+					.mensagem{
+						top:200px;
+						left:-100px;
+			}
+						.painel{
+							top:250px;
+			}
+							body {text-align: center;
+			}
+
+</style>
+	</head>
+	<body style="background:gold">
+	<font size="6" face="Arial" color="purple" style="float: center;"> Jogo da Velha em JavaScript - UVV - Aluno: Gustavo Vazzoler Spelta</font>
+
+		<div class="Gvs">	
+			<p class="config"> Jogo da Forca de Cômodos Residenciais </p>	
+		</div>	
+
+		<div class="Gvs">	
+			<img id="corpoBoneco" src="boneco/0.png"/>
+		</div>
+				
+		<div class="Gvs escolhaDaLetra config">	
+			<p id="escolhaDaLetra"> </p>	
+		</div>
+				
+		<div class="Gvs mensagemFinal config">	
+			<p id="mensagemFinal"> </p>
+		</div>
+				
+		<div class="Gvs painel">
+			<input type="text" id="letra" value= "" onfocus="this.value='';"> </input> <br/>
+			<button id="enviar"> OK </button>	
+		</div>
+	</body>
+</html>
